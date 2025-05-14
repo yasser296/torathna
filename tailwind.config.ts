@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				morocco: {
+					blue: '#2E5FA1',
+					teal: '#0EA5E9',
+					terracotta: '#C96D3D',
+					ochre: '#E5B25D',
+					olive: '#707B4C',
+					brown: '#8C6542',
+					red: '#AD3B41',
+					sand: '#EAE2D3',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +95,39 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'float': 'float 4s ease-in-out infinite'
+			},
+			fontFamily: {
+				amiri: ['Amiri', 'serif'],
+				lateef: ['Lateef', 'serif'],
+			},
+			backgroundImage: {
+				'zellige-pattern': "url('/images/zellige-pattern.svg')",
+				'moroccan-texture': "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/images/moroccan-texture.png')"
 			}
 		}
 	},
