@@ -2,7 +2,7 @@
 import Layout from '@/components/Layout';
 import HeroBanner from '@/components/HeroBanner';
 import FeatureSection from '@/components/FeatureSection';
-import { Gallery, Users } from 'lucide-react';
+import { GalleryHorizontal, Users } from 'lucide-react';
 
 const Artisanat = () => {
   return (
@@ -131,7 +131,7 @@ const Artisanat = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="p-6 border rounded-xl text-center">
-            <Gallery size={32} className="mx-auto mb-4 text-primary" />
+            <GalleryHorizontal size={32} className="mx-auto mb-4 text-primary" />
             <h3 className="text-xl mb-2">Motifs Géométriques</h3>
             <p className="text-muted-foreground">
               Les formes géométriques représentent l'ordre cosmique et l'harmonie divine dans la tradition islamique.
@@ -139,7 +139,7 @@ const Artisanat = () => {
           </div>
           
           <div className="p-6 border rounded-xl text-center">
-            <Gallery size={32} className="mx-auto mb-4 text-primary" />
+            <GalleryHorizontal size={32} className="mx-auto mb-4 text-primary" />
             <h3 className="text-xl mb-2">Symboles Berbères</h3>
             <p className="text-muted-foreground">
               Les triangles, losanges et zigzags évoquent les montagnes, l'eau, la fertilité et la protection.
@@ -147,7 +147,7 @@ const Artisanat = () => {
           </div>
           
           <div className="p-6 border rounded-xl text-center">
-            <Gallery size={32} className="mx-auto mb-4 text-primary" />
+            <GalleryHorizontal size={32} className="mx-auto mb-4 text-primary" />
             <h3 className="text-xl mb-2">La Main de Fatima</h3>
             <p className="text-muted-foreground">
               Symbole de protection présent dans de nombreuses créations artisanales, elle repousse le mauvais œil.

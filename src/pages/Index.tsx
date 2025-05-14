@@ -4,7 +4,7 @@ import HeroBanner from '@/components/HeroBanner';
 import CategoryCard from '@/components/CategoryCard';
 import FeatureSection from '@/components/FeatureSection';
 import { Button } from '@/components/ui/button';
-import { Calendar, Music, Chef, Users, Gallery, PlayCircle } from 'lucide-react';
+import { Calendar, Music, ChefHat, Users, GalleryHorizontal, PlayCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
@@ -32,13 +32,13 @@ const Index = () => {
           <CategoryCard 
             title="Cuisine Marocaine"
             description="Explorez les saveurs et techniques de la gastronomie marocaine"
-            icon={<Chef size={32} />}
+            icon={<ChefHat size={32} />}
             to="/cuisine"
           />
           <CategoryCard 
             title="Artisanat"
             description="Admirez le savoir-faire des artisans et leurs créations uniques"
-            icon={<Gallery size={32} />}
+            icon={<GalleryHorizontal size={32} />}
             to="/artisanat"
           />
           <CategoryCard 

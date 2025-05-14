@@ -1,8 +1,7 @@
-
 import Layout from '@/components/Layout';
 import HeroBanner from '@/components/HeroBanner';
 import FeatureSection from '@/components/FeatureSection';
-import { Chef, Clock, Users, PlayCircle } from 'lucide-react';
+import { ChefHat, Clock, Users, PlayCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
@@ -46,7 +45,7 @@ const Cuisine = () => {
                     <span className="text-muted-foreground">6 personnes</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Chef size={18} className="text-muted-foreground" />
+                    <ChefHat size={18} className="text-muted-foreground" />
                     <span className="text-muted-foreground">Complexité moyenne</span>
                   </div>
                 </div>

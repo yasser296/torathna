@@ -1,10 +1,9 @@
-
 import { useState } from 'react';
 import Layout from '@/components/Layout';
 import HeroBanner from '@/components/HeroBanner';
 import FeatureSection from '@/components/FeatureSection';
 import { Button } from '@/components/ui/button';
-import { Calendar, FileText, Gallery, Heart, Share, User } from 'lucide-react';
+import { Calendar, FileText, GalleryHorizontal, Heart, Share, User } from 'lucide-react';
 
 // Mock user stories
 const userStories = [
@@ -156,7 +155,7 @@ const MonHeritage = () => {
               <label className="block text-sm font-medium mb-2">Ajoutez des médias</label>
               <div className="flex gap-4">
                 <Button variant="outline" className="flex items-center gap-2">
-                  <Gallery size={18} />
+                  <GalleryHorizontal size={18} />
                   <span>Photos</span>
                 </Button>
                 <Button variant="outline" className="flex items-center gap-2">
