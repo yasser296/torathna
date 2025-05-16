@@ -13,7 +13,7 @@ const Index = () => {
       <HeroBanner 
         title="Découvrez le patrimoine culturel du Maroc"
         subtitle="Torathna vous emmène dans un voyage à travers les traditions, l'art et l'histoire du Maroc"
-        imageSrc="https://images.unsplash.com/photo-1539020140153-e750c3a2c38e?q=80&w=2070&auto=format&fit=crop"
+        imageSrc="/images/home.webp"
         ctaText="Explorer"
         ctaLink="/decouverte"
       />
@@ -77,27 +77,36 @@ const Index = () => {
               </Button>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img 
-                src="https://images.unsplash.com/photo-1493962853295-0fd70327578a?q=80&w=2070&auto=format&fit=crop" 
-                alt="Tradition marocaine" 
-                className="rounded-lg shadow-md transform translate-y-6 object-cover h-48"
-              />
-              <img 
-                src="https://images.unsplash.com/photo-1548765015-1e047ff5c9e7?q=80&w=1776&auto=format&fit=crop" 
-                alt="Art marocain" 
-                className="rounded-lg shadow-md object-cover h-48"
-              />
-              <img 
-                src="https://images.unsplash.com/photo-1562165742-4b5adb8d491b?q=80&w=1964&auto=format&fit=crop" 
-                alt="Cuisine marocaine" 
-                className="rounded-lg shadow-md object-cover h-48"
-              />
-              <img 
-                src="https://images.unsplash.com/photo-1490604001847-b712b0c2f967?q=80&w=2053&auto=format&fit=crop" 
-                alt="Musique marocaine" 
-                className="rounded-lg shadow-md transform translate-y-6 object-cover h-48"
-              />
+              <div className="overflow-hidden rounded-lg shadow-md h-64 row-span-1">
+                <img 
+                  src="/images/art.webp" 
+                  alt="Art marocain" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="overflow-hidden rounded-lg shadow-md h-64 row-span-1">
+                <img 
+                  src="/images/eat.webp" 
+                  alt="Cuisine marocaine" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="overflow-hidden rounded-lg shadow-md h-64 row-span-1">
+                <img 
+                  src="/images/jeld.jpeg" 
+                  alt="Artisanat marocain" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="overflow-hidden rounded-lg shadow-md h-64 row-span-1">
+                <img 
+                  src="/images/tagine.jpeg" 
+                  alt="Tradition marocaine" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
             </div>
+
           </div>
         </div>
       </section>

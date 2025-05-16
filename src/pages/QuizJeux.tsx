@@ -74,7 +74,7 @@ const QuizJeux = () => {
       <HeroBanner 
         title="Quiz & Jeux"
         subtitle="Testez vos connaissances sur le patrimoine culturel marocain"
-        imageSrc="https://images.unsplash.com/photo-1560173045-beaf11c65dce?q=80&w=2070&auto=format&fit=crop"
+        imageSrc="/images/jeu.avif"
       />
       
       <FeatureSection

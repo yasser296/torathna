@@ -14,7 +14,7 @@ const userStories = [
     content: 'Ma grand-mère m\'a appris l\'art du tissage de tapis berbères dans notre village près de Taznakht. Chaque motif raconte une histoire de notre famille...',
     date: '15/04/2025',
     likes: 124,
-    image: 'https://images.unsplash.com/photo-1551732998-9573f695fdbb?q=80&w=2070&auto=format&fit=crop'
+    image: 'img'
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const userStories = [
     content: 'Chaque année, notre famille se réunit pour le Moussem de Tan-Tan. Cette célébration nomade est une occasion unique de partager nos traditions...',
     date: '02/03/2025',
     likes: 87,
-    image: 'https://images.unsplash.com/photo-1550556915-3180facbd145?q=80&w=2070&auto=format&fit=crop'
+    image: 'img'
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const userStories = [
     content: 'La préparation du couscous dans ma famille est un véritable rituel qui nous rassemble tous les vendredis. Voici comment ma mère m\'a transmis ce savoir...',
     date: '20/02/2025',
     likes: 156,
-    image: 'https://images.unsplash.com/photo-1585537423274-4613f3796684?q=80&w=2070&auto=format&fit=crop'
+    image: 'img'
   }
 ];
 
@@ -52,7 +52,7 @@ const MonHeritage = () => {
       <HeroBanner 
         title="Mon Héritage"
         subtitle="Partagez et découvrez des histoires personnelles liées aux traditions marocaines"
-        imageSrc="https://images.unsplash.com/photo-1623778394166-9de31d6e3780?q=80&w=2070&auto=format&fit=crop"
+        imageSrc="/images/heritage.avif"
       />
       
       <FeatureSection

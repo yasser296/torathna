@@ -10,7 +10,7 @@ const Decouverte = () => {
       <HeroBanner 
         title="Découverte des régions"
         subtitle="Explorez la diversité culturelle du Maroc à travers ses différentes régions"
-        imageSrc="https://images.unsplash.com/photo-1528657249085-893cbd78fb16?q=80&w=2074&auto=format&fit=crop"
+        imageSrc="/images/culture.webp"
       />
       
       <FeatureSection
@@ -32,7 +32,7 @@ const Decouverte = () => {
               Découvrez les traditions vocales des régions montagneuses, transmises de génération en génération.
             </p>
             <img 
-              src="https://images.unsplash.com/photo-1511325928633-b95d50f217db?q=80&w=2070&auto=format&fit=crop" 
+              src="img" 
               alt="Chants Amazighs" 
               className="w-full h-40 object-cover rounded-lg"
             />
@@ -44,7 +44,7 @@ const Decouverte = () => {
               Explorez les origines et significations de cette forme d'expression culturelle et spirituelle.
             </p>
             <img 
-              src="https://images.unsplash.com/photo-1672065868819-a01bc5a2e1f2?q=80&w=2041&auto=format&fit=crop" 
+              src="img" 
               alt="Danse Gnaoua" 
               className="w-full h-40 object-cover rounded-lg"
             />
@@ -56,7 +56,7 @@ const Decouverte = () => {
               Les techniques ancestrales de tissage varient selon les régions, chacune avec ses motifs distinctifs.
             </p>
             <img 
-              src="https://images.unsplash.com/photo-1575403632493-c27ae40bb9a0?q=80&w=2070&auto=format&fit=crop" 
+              src="img" 
               alt="Tissage Traditionnel" 
               className="w-full h-40 object-cover rounded-lg"
             />

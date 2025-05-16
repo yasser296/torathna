@@ -8,19 +8,19 @@ import { Button } from '@/components/ui/button';
 
 // Mock audio data
 const audioTracks = [
-  { id: 1, title: 'Andalousie Marocaine', artist: 'Orchestre de Fès', duration: '6:24', region: 'Fès', image: 'https://images.unsplash.com/photo-1619179834700-3a939ee7cbe3?q=80&w=1992&auto=format&fit=crop' },
-  { id: 2, title: 'Ahouach des Atlas', artist: 'Groupe Folklorique d\'Ouarzazate', duration: '8:45', region: 'Souss-Massa', image: 'https://images.unsplash.com/photo-1550171449-c69c47aad119?q=80&w=2070&auto=format&fit=crop' },
-  { id: 3, title: 'Gnaoua Essaouira', artist: 'Maâlem Hassan Boussou', duration: '10:12', region: 'Marrakech-Safi', image: 'https://images.unsplash.com/photo-1619561693339-8af35283b649?q=80&w=2070&auto=format&fit=crop' },
-  { id: 4, title: 'Chaâbi Populaire', artist: 'Orchestre National', duration: '7:38', region: 'Casablanca', image: 'https://images.unsplash.com/photo-1588414734732-660b9b990af2?q=80&w=1974&auto=format&fit=crop' },
-  { id: 5, title: 'Izlan Rif', artist: 'Groupe Rifain', duration: '5:19', region: 'Oriental', image: 'https://images.unsplash.com/photo-1490195117352-aa267f47f2d9?q=80&w=2070&auto=format&fit=crop' },
-  { id: 6, title: 'Malhoun Meknassi', artist: 'Haj Mohamed Bouzoubaâ', duration: '9:53', region: 'Fès-Meknès', image: 'https://images.unsplash.com/photo-1465225314224-587cd83d322b?q=80&w=2070&auto=format&fit=crop' },
+  { id: 1, title: 'Andalousie Marocaine', artist: 'Orchestre de Fès', duration: '6:24', region: 'Fès', image: 'img' },
+  { id: 2, title: 'Ahouach des Atlas', artist: 'Groupe Folklorique d\'Ouarzazate', duration: '8:45', region: 'Souss-Massa', image: 'img' },
+  { id: 3, title: 'Gnaoua Essaouira', artist: 'Maâlem Hassan Boussou', duration: '10:12', region: 'Marrakech-Safi', image: 'img' },
+  { id: 4, title: 'Chaâbi Populaire', artist: 'Orchestre National', duration: '7:38', region: 'Casablanca', image: 'img' },
+  { id: 5, title: 'Izlan Rif', artist: 'Groupe ' , duration: '5:19', region: 'Oriental', image: '/images/girl.avif'},
+  { id: 6, title: 'Malhoun Meknassi', artist: 'Haj Mohamed Bouzoubaâ', duration: '9:53', region: 'Fès-Meknès', image: 'img' },
 ];
 
 // Mock video data
 const videoContent = [
-  { id: 1, title: 'Festival de Fès des Musiques Sacrées', thumbnail: 'https://images.unsplash.com/photo-1565847189954-6ba8facc5cc7?q=80&w=2071&auto=format&fit=crop', duration: '15:42' },
-  { id: 2, title: 'Les Danses Ahidous de l\'Atlas', thumbnail: 'https://images.unsplash.com/photo-1653592328254-f2797471bac8?q=80&w=2070&auto=format&fit=crop', duration: '8:17' },
-  { id: 3, title: 'Le Moussem d\'Imilchil', thumbnail: 'https://images.unsplash.com/photo-1583243535720-dfa016d87a7c?q=80&w=2069&auto=format&fit=crop', duration: '12:05' },
+  { id: 1, title: 'Festival de Fès des Musiques Sacrées', thumbnail: 'img or vid', duration: '15:42' },
+  { id: 2, title: 'Les Danses Ahidous de l\'Atlas', thumbnail: 'img or vid', duration: '8:17' },
+  { id: 3, title: 'Le Moussem d\'Imilchil', thumbnail: 'img or vid', duration: '12:05' },
 ];
 
 const Musique = () => {
@@ -39,7 +39,7 @@ const Musique = () => {
       <HeroBanner 
         title="Musique & Arts du Spectacle"
         subtitle="Découvrez les sonorités et performances qui ont forgé l'identité culturelle marocaine"
-        imageSrc="https://images.unsplash.com/photo-1533927445882-f97724cba56f?q=80&w=1974&auto=format&fit=crop"
+        imageSrc="/images/music.avif"
       />
       
       <FeatureSection
