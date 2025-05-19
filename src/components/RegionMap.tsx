@@ -148,7 +148,7 @@ const RegionMap = () => {
         <div className="absolute inset-0 p-6">
           <img 
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Morocco_Regions_2015.svg/1200px-Morocco_Regions_2015.svg.png" 
-            alt="Carte du Maroc" 
+            alt="Carte duu Maroc" 
             className="w-full h-full object-contain"
           />
           
